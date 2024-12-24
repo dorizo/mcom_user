@@ -53,7 +53,6 @@ Route::get("pln",[TransaksiController::class , "pln"]);
 Route::post("cektransaksiinternet",[TransaksiController::class , "cektransaksiinternet"]);
 Route::post("cektransaksigame",[TransaksiController::class , "cektransaksigame"]);
 Route::get("notif/notifnumber" , function(){
-    // MessageCreated::dispatch("DORIS HERMAWAN");
     event(new MessageCreated(array("ppspspsp" => "ssss")));
 });
 

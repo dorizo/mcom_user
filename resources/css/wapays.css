@@ -1,0 +1,42 @@
+.loginbody {
+    background: rgb(240, 240, 240);
+    background: linear-gradient(
+        180deg,
+        rgba(240, 240, 240, 1) 30%,
+        rgba(118, 181, 121, 1) 62%,
+        rgba(17, 94, 23, 1) 100%
+    );
+    color: fff;
+}
+.sub-bg {
+    background-image: url("../../public/img/bg1.jpg");
+    background-size: 100%;
+    height: 220px;
+    color: aliceblue;
+}
+.sub-content {
+    margin-top: -50px;
+    border-radius: 30px 30px 0 0;
+    padding: 30px;
+}
+.btn-success {
+    background-color: #139c49 !important;
+}
+body {
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-image: radial-gradient(#ffffff 0.5px, transparent 0.5px),
+        radial-gradient(#ffffff 0.5px, #ffffff 0 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+.kartu {
+    background-size: 100%;
+}
+.borderkartu {
+    border: 3px #139c49 solid;
+}
+.bg2 {
+    border: 3px #139c49 solid;
+    width: 120px;
+}
